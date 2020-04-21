@@ -59,13 +59,22 @@
 })({
     0: function (t, e, r) {
         t.exports = r("56d7")
+    }, "4ffd": function (t, e, r) {
+        t.exports = "."+r.p + "img/logo.7d7ae07a.png"
     }, "56d7": function (t, e, r) {
         "use strict";
         r.r(e);
         r("e260"), r("e6cf"), r("cca6"), r("a79d");
         var i = r("2b0e"), s = function () {
                 var t = this, e = t.$createElement, r = t._self._c || e;
-                return r("div", {attrs: {id: "app"}}, [r("div", {attrs: {id: "tetris-wrapper"}}, [r("a", {
+                return r("div", {attrs: {id: "app"}}, [r("Tetris")], 1)
+            }, o = [], a = function () {
+                var t = this, e = t.$createElement, r = t._self._c || e;
+                return r("div", {
+                    ref: "boardControl",
+                    attrs: {id: "tetris-wrapper", tabindex: "1"},
+                    on: {keydown: t.keydown, keyup: t.keyup}
+                }, [r("a", {
                     staticClass: "tetris__partners",
                     attrs: {href: "http://bit.ly/2QtB5WJ", target: "_blank"}
                 }, [r("img", {
@@ -78,24 +87,17 @@
                             t.start = !0
                         }
                     }
-                }, [t._v("Почати гру!")])]), t.start ? r("Tetris") : t._e()], 1)])
-            }, o = [], a = function () {
-                var t = this, e = t.$createElement, r = t._self._c || e;
-                return r("div", {attrs: {id: "tetrishold"}}, [r("div", {
-                    ref: "boardControl",
-                    attrs: {id: "tetris", tabindex: "1"},
-                    on: {keydown: t.keydown, keyup: t.keyup}
-                }), r("div", {
+                }, [t._v("Почати гру!")])]), t.start ? r("div", {attrs: {id: "tetrishold"}}, [r("div", {attrs: {id: "tetris"}}), r("div", {
                     directives: [{
                         name: "show",
                         rawName: "v-show",
                         value: "settings" !== t.state,
                         expression: "state !== 'settings'"
                     }], staticClass: "game"
-                }, [r("div", {
+                }, [t._v(" " + t._s(t.score) + "/" + t._s(t.winScore) + " "), t.win ? r("div", {staticClass: "winner"}, [1 === t.step ? r("div", [r("h2", {staticClass: "win__header"}, [t._v(" Вокзал «Південний» в Києві ")]), r("p", [t._v(" Південний вокзал відкрили в 2001 році, раніше на його місці розташовувався оптовий ринок. Архітектурні рішення нової будівлі були настільки незвичними для того часу, що після відкриття сюди водили шкільні екскурсії. ")]), r("p", [t._v(" Під час будівництва Південного вокзалу використовували бетон від Ковальської. Група компаній Ковальська має надзвичайно великі потужності – до 1000 куб м на годину, й може забезпечити необхідною кількістю матеріалів для зведення наймасштабніших об’єктів. ")])]) : t._e(), 2 === t.step ? r("div", [r("h2", {staticClass: "win__header"}, [t._v(" НСК Олімпійський ")]), r("p", [t._v(" На НСК Олімпійський відбувалися футбольні матчі Олімпійських ігор в 1980 році, Євро-2012, а в 2018 – фінал Ліги чемпіонів УЄФА. Впродовж свого існування стадіон змінив декілька назв. Носив ім’я Хрущова, був Київським центральним стадіоном, а згодом – Республіканським. ")]), r("p", [t._v(" Спортивний комплекс незмінно працює з 1923 року. Під час його будівництва (чи мається на увазі реконструкція перед ЄВРО?) використовували бетон від Ковальської. ")]), r("p", [t._v(" Бетон компанії Ковальська має понад 1500 рецептур виробів й вирізняється виключною якістю та довговічністю, на кожну партію сировини є сертифікат якості. ")])]) : t._e(), 3 === t.step ? r("div", [r("h2", {staticClass: "win__header"}, [t._v(" ЦУМ ")]), r("p", [t._v(" Київський центральний універмаг збудований у стилі ар-деко. ЦУМ відкрили для перших відвідувачів у 1939 році. Це – одна з небагатьох будівель на Хрещатику, яка не була повністю зруйнована у ході другої світової й знову почала працювати у 1947 році після реконструкції. Це – перший магазин в Україні, де встановили ескалатор, ще в 1960 році. Тривалий час ЦУМ слугував символом «радянського достатку». ")]), r("p", [t._v(" В 2016 році універмаг реконструювали. В ході будівельних робіт використовували бетон від Ковальської. Під куполом оновленої будівлі розташовані ресторани, кафе та бари з мальовничим видом на старий Київ. ")])]) : t._e(), 4 === t.step ? r("div", [r("h2", {staticClass: "win__header"}, [t._v(" Вернадка ")]), r("p", [t._v(" Бібліотека імені Вернадського – найбільша в Україні. Її відкрили в 1989 році, а на церемонію приїхав сам Борис Патон, президент НАН України. Один з її корпусів сягає 77 метрів заввишки і виконаний в стилі архітектури модернізму. ")]), r("p", [t._v(" Бібліотека складається з вертикальної споруди, де знаходяться книгосховища, й стилобату – з читальними залами, конференц залою та службовими приміщеннями. ")]), r("p", [t._v(" Її зводили за кресленнями «Київпроекту», а в ході будівництва використовували бетон від Ковальської. ")]), r("p", [t._v(" ПБГ Ковальська має власну сертифіковану лабораторію, фахівці якої на кожному етапі перевіряють якість продукції і так само працюють над новими вдосконаленими рецептурами. Все це гарантує довговічність і надійність спорудам, зведених з бетону від Ковальської. ")])]) : t._e(), 5 === t.step ? r("div", [r("h2", {staticClass: "win__header"}, [t._v(" БЦ Парус ")]), r("p", [t._v(" БЦ Парус є однією з найвищих будівель Києва і сягає 133 метрів у висоту. Бізнес центр має 32 поверхи й будувався впродовж трьох років. Будівлю зводили з використанням скла, сталі, алюмінію, бетону, залізобетону й цегли. У ході робіт використовували матеріали від ПБГ Ковальська. ")])]) : t._e(), r("button", {on: {click: t.nextLevel}}, [t._v("Грати далі!")])]) : t._e(), r("div", {
                     staticClass: "main",
-                    style: {"--brickSize": t.brickSize + "vw"}
-                }, [r("div", {staticClass: "left"}, [1 === t.step ? r("tetris-board", {
+                    style: {"--brickSize": t.brickSize + "px"}
+                }, [r("div", {staticClass: "left"}, [5 === t.step ? r("tetris-board", {
                     ref: "board",
                     staticClass: "board",
                     model: {
@@ -103,9 +105,25 @@
                             t.board = e
                         }, expression: "board"
                     }
-                }) : t._e(), 2 === t.step ? r("tetris-board", {
+                }) : t._e(), 4 === t.step ? r("tetris-board", {
                     ref: "board",
                     staticClass: "board biblio",
+                    model: {
+                        value: t.board, callback: function (e) {
+                            t.board = e
+                        }, expression: "board"
+                    }
+                }) : t._e(), 1 === t.step ? r("tetris-board", {
+                    ref: "board",
+                    staticClass: "board vokzal",
+                    model: {
+                        value: t.board, callback: function (e) {
+                            t.board = e
+                        }, expression: "board"
+                    }
+                }) : t._e(), 3 === t.step ? r("tetris-board", {
+                    ref: "board",
+                    staticClass: "board tsum",
                     model: {
                         value: t.board, callback: function (e) {
                             t.board = e
@@ -158,19 +176,15 @@
                             t.preview = e
                         }, expression: "preview"
                     }
-                })], 1)])])])
+                })], 1)])])]) : t._e()])
             }, n = [], h = (r("4de4"), r("d81d"), r("38cf"), r("18a5"), r("2909")), c = r("3835"), d = r("b85c"),
             u = function () {
                 var t = this, e = t.$createElement, r = t._self._c || e;
-                return r("div", t._l(t.value.h, (function (e) {
-                    return r("div", {key: e, staticClass: "row"}, t._l(t.value.w, (function (i) {
-                        return r("div", {
-                            key: i,
-                            staticClass: "col",
-                            style: {backgroundImage: "url(" + t.value[i - 1 + (e - 1) * t.value.w] + ")"}
-                        })
+                return r("div", [r("table", t._l(t.value.h, (function (e) {
+                    return r("tr", {key: e, staticClass: "row"}, t._l(t.value.w, (function (i) {
+                        return r("td", {key: i, staticClass: "col", class: t.value[i - 1 + (e - 1) * t.value.w]})
                     })), 0)
-                })), 0)
+                })), 0)])
             }, l = [], p = {
                 name: "TetrisBoard", props: ["value"], mounted: function () {
                 }, methods: {
@@ -178,54 +192,55 @@
                         this.$forceUpdate()
                     }
                 }
-            }, f = p, b = r("2877"), v = Object(b["a"])(f, u, l, !1, null, "2b4c1388", null), g = v.exports, m = r("e06d"),
-            w = r.n(m), k = (r("dc44"), r("fa6d"), {
+            }, f = p, b = r("2877"), v = Object(b["a"])(f, u, l, !1, null, "72dc85d3", null), g = v.exports, w = r("e06d"),
+            m = r.n(w), _ = (r("dc44"), r("fa6d"), r("4ffd")), k = r.n(_), x = {
                 name: "Tetris", data: function () {
                     return {
                         state: "running",
+                        start: !1,
                         figuresAll: [{
                             name: "line",
                             points: [[0, 0], [1, 0], [2, 0], [3, 0]],
                             mode: "90",
-                            color: "#0f0",
-                            image: w.a
+                            color: "active",
+                            image: m.a
                         }, {
                             name: "box",
                             points: [[0, 0], [0, 1], [1, 0], [1, 1]],
                             mode: "frozen",
-                            color: "#080",
-                            image: w.a
+                            color: "active",
+                            image: m.a
                         }, {
                             name: "T",
                             points: [[0, 0], [1, 0], [2, 0], [1, 1]],
                             mode: "rot",
                             anchor: [1, 0],
-                            color: "#8f0",
-                            image: w.a
+                            color: "active",
+                            image: m.a
                         }, {
                             name: "dog",
                             points: [[0, 0], [1, 0], [1, 1], [2, 1]],
                             mode: "90",
-                            color: "#e95c26",
-                            image: w.a
+                            color: "active",
+                            image: m.a
                         }, {
                             name: "dog reverse",
                             points: [[0, 1], [1, 1], [1, 0], [2, 0]],
                             mode: "90",
-                            color: "#e95c26",
-                            image: w.a
+                            color: "active",
+                            image: m.a
                         }, {
                             name: "L",
                             points: [[0, 0], [0, 1], [0, 2], [1, 2]],
                             mode: "rot",
-                            color: "#ff0",
-                            image: w.a
+                            color: "active",
+                            image: m.a
                         }, {
                             name: "L reverse",
                             points: [[1, 0], [1, 1], [1, 2], [0, 2]],
                             mode: "rot",
-                            color: "#ff0",
-                            image: w.a
+                            color: "active",
+                            image: m.a
                         }, {
                             name: "L",
                             points: [[0, 0], [0, 1], [0, 2], [1, 2], [2, 2]],
@@ -308,9 +323,9 @@
                             name: "point",
                             points: [[0, 0]],
                             mode: "ball",
-                            color: "#88f",
+                            color: "active",
                             disabled: !1,
-                            image: w.a
+                            image: m.a
                         }, {
                             name: "heart",
                             points: [[0, 0], [0, 1], [1, 1], [1, 2], [2, 1], [2, 0]],
@@ -324,16 +339,25 @@
                         speed: .05,
                         score: 0,
                         highScore: 0,
-                        step: 2,
+                        winScore: 4,
+                        step: 1,
+                        win: !1,
                         board: [],
+                        boardClass: [],
                         preview: [],
-                        brickSize: 2,
+                        brickSize: 25,
                         smartRandom: !0,
-                        emptyColor: "transparent",
-                        img: {puzzleBg: w.a}
+                        emptyColor: "",
+                        img: {puzzleBg: m.a, Logo: k.a}
                     }
                 }, components: {TetrisBoard: g}, methods: {
-                    toggleFigures: function (t) {
+                    nextLevel: function () {
+                        this.step += 1, 2 === this.step && (this.step += 1), this.win = !1, this.initFigures(), this.newGame(), document.querySelector(".board").style.backgroundPositionY = 0;
+                        var t = this.$refs.boardControl;
+                        t.focus(), setTimeout((function () {
+                            return t.focus()
+                        }), 500)
+                    }, toggleFigures: function (t) {
                         var e, r = Object(d["a"])(this.figuresAll);
                         try {
                             for (r.s(); !(e = r.n()).done;) {
@@ -358,17 +382,28 @@
                         this.board.length = this.board.w * this.board.h;
                         for (var t = 0; t < this.board.length; ++t) this.board[t] = this.emptyColor;
                         if (1 === this.step) {
-                            for (var e = 3; e < 9; e++) this.board[e - 1 + (this.board.h - 1) * this.board.w] = "transpatent";
-                            for (var r = 3; r < 9; r++) this.board[r - 1 + (this.board.h - 2) * this.board.w] = "transpatent";
-                            for (var i = 3; i < 9; i++) this.board[i - 1 + (this.board.h - 3) * this.board.w] = "transpatent";
-                            for (var s = 4; s < 9; s++) this.board[s - 1 + (this.board.h - 4) * this.board.w] = "transpatent";
-                            for (var o = 4; o < 8; o++) for (var a = 5; a < 12; a++) this.board[o - 1 + (this.board.h - a) * this.board.w] = "transpatent";
-                            for (var n = 5; n < 8; n++) this.board[n - 1 + (this.board.h - 12) * this.board.w] = "transpatent"
-                        } else if (2 === this.step) {
-                            for (var h = 1; h < 11; h++) for (var c = 1; c < 4; c++) this.board[h - 1 + (this.board.h - c) * this.board.w] = "transpatent";
-                            for (var d = 2; d < 8; d++) this.board[d - 1 + (this.board.h - 4) * this.board.w] = "transpatent";
-                            for (var u = 3; u < 8; u++) for (var l = 5; l < 12; l++) this.board[u - 1 + (this.board.h - l) * this.board.w] = "transpatent";
-                            for (var p = 3; p < 5; p++) this.board[p - 1 + (this.board.h - 12) * this.board.w] = "transpatent"
+                            for (var e = 1; e < 11; e++) this.board[e - 1 + (this.board.h - 1) * this.board.w] = " prev";
+                            for (var r = 2; r < 11; r++) this.board[r - 1 + (this.board.h - 2) * this.board.w] = " prev";
+                            for (var i = 2; i < 11; i++) this.board[i - 1 + (this.board.h - 3) * this.board.w] = " prev";
+                            for (var s = 6; s < 8; s++) this.board[s - 1 + (this.board.h - 4) * this.board.w] = " prev"
+                        } else if (3 === this.step) {
+                            for (var o = 1; o < 11; o++) this.board[o - 1 + (this.board.h - 1) * this.board.w] = " prev";
+                            for (var a = 2; a < 11; a++) for (var n = 2; n < 5; n++) this.board[a - 1 + (this.board.h - n) * this.board.w] = " prev";
+                            for (var h = 3; h < 9; h++) this.board[h - 1 + (this.board.h - 5) * this.board.w] = " prev";
+                            for (var c = 4; c < 8; c++) this.board[c - 1 + (this.board.h - 6) * this.board.w] = " prev";
+                            for (var d = 5; d < 8; d++) this.board[d - 1 + (this.board.h - 7) * this.board.w] = " prev"
+                        } else if (5 === this.step) {
+                            for (var u = 3; u < 9; u++) this.board[u - 1 + (this.board.h - 1) * this.board.w] = " prev";
+                            for (var l = 3; l < 9; l++) this.board[l - 1 + (this.board.h - 2) * this.board.w] = " prev";
+                            for (var p = 3; p < 9; p++) this.board[p - 1 + (this.board.h - 3) * this.board.w] = " prev";
+                            for (var f = 4; f < 9; f++) this.board[f - 1 + (this.board.h - 4) * this.board.w] = " prev";
+                            for (var b = 4; b < 8; b++) for (var v = 5; v < 12; v++) this.board[b - 1 + (this.board.h - v) * this.board.w] = " prev";
+                            for (var g = 5; g < 8; g++) this.board[g - 1 + (this.board.h - 12) * this.board.w] = " prev"
+                        } else if (4 === this.step) {
+                            for (var w = 1; w < 11; w++) for (var m = 1; m < 4; m++) this.board[w - 1 + (this.board.h - m) * this.board.w] = " prev";
+                            for (var _ = 2; _ < 8; _++) this.board[_ - 1 + (this.board.h - 4) * this.board.w] = " prev";
+                            for (var k = 3; k < 8; k++) for (var x = 5; x < 12; x++) this.board[k - 1 + (this.board.h - x) * this.board.w] = " prev";
+                            for (var y = 3; y < 5; y++) this.board[y - 1 + (this.board.h - 12) * this.board.w] = " prev"
                         }
                     }, testBallBoard: function () {
                         for (var t = this.board.h - 1; t > 5; t--) for (var e = 0; e < this.board.w; ++e) 5 !== e && (this.board[e + t * this.board.w] = "#080");
@@ -430,16 +465,14 @@
                             e.f()
                         }
                     }, setFigureToMap: function (t, e) {
-                        var r = arguments.length > 2 && void 0 !== arguments[2] && arguments[2];
-                        console.log(e);
-                        var i,
-                            s = r ? [-e.figure.anchor[0] + t.w / 2 | 0, -e.figure.anchor[1] + t.h / 2 | 0] : [e.pos[0], e.pos[1]],
+                        var r, i = arguments.length > 2 && void 0 !== arguments[2] && arguments[2],
+                            s = i ? [-e.figure.anchor[0] + t.w / 2 | 0, -e.figure.anchor[1] + t.h / 2 | 0] : [e.pos[0], e.pos[1]],
                             o = Object(c["a"])(s, 2), a = o[0], n = o[1],
                             h = Object(d["a"])(e.figure.pointsRotated[e.rotate]);
                         try {
-                            for (h.s(); !(i = h.n()).done;) {
-                                var u = i.value, l = a + u[0], p = n + u[1];
-                                l >= 0 && l < t.w && p >= 0 && p < t.h && (t[l + p * t.w] = e.image)
+                            for (h.s(); !(r = h.n()).done;) {
+                                var u = r.value, l = a + u[0], p = n + u[1];
+                                l >= 0 && l < t.w && p >= 0 && p < t.h && (t[l + p * t.w] = e.color)
                             }
                         } catch (f) {
                             h.e(f)
@@ -463,7 +496,7 @@
                             h.f()
                         }
                     }, swapNew: function () {
-                        if (this.passThrough = !1, this.current = this.next, this.checkCollide(this.board, this.current) || this.score > 12) return this.end();
+                        if (this.passThrough = !1, this.current = this.next, this.checkCollide(this.board, this.current) || this.score === this.winScore) return this.end();
                         this.setFigureToMap(this.board, this.current), this.$refs.board.update(), this.unsetFigureFromMap(this.preview, this.next, !0), this.next = this.genNew(), this.setFigureToMap(this.preview, this.next, !0), this.$refs.preview.update()
                     }, genNew: function () {
                         return this.smartRandom ? this.genNewSmart() : this.genNewOld()
@@ -479,7 +512,7 @@
                             t.length = 0
                         }
                         var i = t.shift(), s = {figure: i, rotate: 0};
-                        return console.log(s), this.last = i, s.color = i.color || "hsl(".concat(360 * Math.random() | 0, ", 100%, 50%)"), s.image = i.image, console.log(s), s.pos = [this.board.w / 2 - i.anchor[0] | 0, 0], s
+                        return this.last = i, s.color = i.color || "hsl(".concat(360 * Math.random() | 0, ", 100%, 50%)"), s.image = i.image, s.pos = [this.board.w / 2 - i.anchor[0] | 0, 0], s
                     }, fillBucket: function () {
                         var t = this.bucket, e = this.figures;
                         t.length = 0, t.push.apply(t, Object(h["a"])(e)), t.push.apply(t, Object(h["a"])(e));
@@ -554,14 +587,14 @@
                         for (var t = this.current.pos[1] + 1; t < this.board.h; ++t) if (this.board[this.current.pos[0] + t * this.board.w] === this.emptyColor) return !0;
                         return !1
                     }, end: function () {
-                        console.log("end"), this.highScore = Math.max(this.score, this.highScore), this.state = "end", this.calcSpeed()
+                        this.highScore = Math.max(this.score, this.highScore), this.state = "end", this.calcSpeed(), this.score === this.winScore && (this.win = !0)
                     }, checkCollide: function (t, e) {
                         var r, i = Object(d["a"])(e.figure.pointsRotated[e.rotate]);
                         try {
                             for (i.s(); !(r = i.n()).done;) {
                                 var s = r.value, o = e.pos[0] + s[0], a = e.pos[1] + s[1];
-                                if (o < 0 || o >= t.w || a < 0 || a >= t.h) return 2;
-                                if (t[o + a * t.w] !== this.emptyColor) return 1
+                                if (o < 0 || o >= t.w || a < 0 || a >= t.h) return e.color = "final", 2;
+                                if (t[o + a * t.w] !== this.emptyColor) return e.color = "final", 1
                             }
                         } catch (n) {
                             i.e(n)
@@ -575,9 +608,9 @@
                             while (r >= 0) {
                                 for (var i = 0, s = 0; s < t.w; ++s) t[s + r * t.w] !== this.emptyColor && ++i;
                                 if (i !== t.w) break;
-                                --r, ++this.score, document.querySelector(".board").style.backgroundPositionY = 2 * this.score + "vw"
+                                --r, ++this.score, document.querySelector(".board").style.backgroundPositionY = this.brickSize * this.score + "px"
                             }
-                            if (r !== e) for (var o = e - r, a = e; a >= o; --a) for (var n = 0; n < t.w; ++n) t[n + a * t.w] = t[n + (a - o) * t.w]
+                            if (r !== e) for (var o = e - r, a = e; a >= o; --a) for (var n = 0; n < t.w; ++n) "prev" !== t[n + (a - o) * t.w] && (t[n + a * t.w] = t[n + (a - o) * t.w])
                         }
                     }, newGame: function () {
                         if (this.figures = this.figuresAll.filter((function (t) {
@@ -587,7 +620,6 @@
                     }, showSettings: function () {
                         this.state = "settings", this.calcSpeed()
                     }, explode: function () {
-                        console.log("explode");
                         for (var t = 0; t < 4; ++t) for (var e = 0; e < 4; ++e) {
                             var r = t + this.current.pos[0], i = e + this.current.pos[1];
                             r >= 0 && r < this.board.w && i >= 0 && i < this.board.h && (this.board[r + i * this.board.w] = this.emptyColor)
@@ -602,10 +634,9 @@
                         return t.focus()
                     }), 500)
                 }
-            }), y = k, x = Object(b["a"])(y, a, n, !1, null, "1483ca54", null), M = x.exports, C = r("aca7"), _ = r.n(C),
-            S = {
+            }, y = x, C = Object(b["a"])(y, a, n, !1, null, "507c5cef", null), M = C.exports, S = {
                 name: "App", data: function () {
-                    return {start: !1, img: {Logo: _.a}}
+                    return {start: !1}
                 }, components: {Tetris: M}
             }, T = S, F = Object(b["a"])(T, s, o, !1, null, null, null), O = F.exports;
         i["a"].config.productionTip = !1, new i["a"]({
@@ -613,11 +644,9 @@
                 return t(O)
             }
         }).$mount("#app")
-    }, aca7: function (t, e, r) {
-        t.exports = "."+r.p + "img/logo.49094681.jpg"
     }, dc44: function (t, e, r) {
     }, e06d: function (t, e, r) {
         t.exports = "."+r.p + "img/puzzlebg.27f250a7.jpeg"
     }
 });
-//# sourceMappingURL=app.50cec25e.js.map
+//# sourceMappingURL=app.f73f0162.js.map
