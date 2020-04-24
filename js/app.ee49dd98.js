@@ -62,11 +62,11 @@
     }, "01ce": function (t, e, r) {
         t.exports = "."+ r.p + "img/tsumfin.72324507.svg"
     }, "282f": function (t, e, r) {
-        t.exports = "."+ r.p + "img/facebook.d41d8cd9.svg"
+        t.exports ="."+  r.p + "img/facebook.d41d8cd9.svg"
     }, "3a03": function (t, e, r) {
         t.exports ="."+  r.p + "img/bibliofin.41db7e79.svg"
     }, "4ffd": function (t, e, r) {
-        t.exports = "."+ r.p + "img/logo.f6dd30ef.png"
+        t.exports ="."+  r.p + "img/logo.f6dd30ef.png"
     }, "56d7": function (t, e, r) {
         "use strict";
         r.r(e);
@@ -191,7 +191,7 @@
                     }], staticClass: "game"
                 }, [r("div", {
                     staticClass: "main",
-                    style: {"--brickSize": t.brickSize + "px"}
+                    style: {"--brickSize": t.brickSize + "vh"}
                 }, [r("div", {staticClass: "left"}, [t.gameon || t.win || t.start ? t._e() : r("div", {staticClass: "firstscreen"}, [!1 === t.instructions ? r("div", [r("h2", {staticClass: "firstscreen__header"}, [t._v(" Зіграйте у київський тетріс! ")]), t._m(0), r("button", {
                     staticClass: "tetris__nextbutton",
                     on: {
@@ -405,7 +405,8 @@
             }, function () {
                 var t = this, e = t.$createElement, r = t._self._c || e;
                 return r("div", {staticClass: "firstscreen__desc"}, [r("p", [t._v(" В грі п’ять рівнів, від найпростішого – до складного. Потрібно зібрати простір навколо кожної будівлі. Рівень закінчується, коли об’єкт опускається вниз, а ви переходите до наступного етапу.")])])
-            }], h = (r("4de4"), r("d81d"), r("38cf"), r("18a5"), r("2909")), c = r("3835"), d = r("b85c"), l = function () {
+            }], h = (r("4de4"), r("d81d"), r("ac1f"), r("466d"), r("38cf"), r("18a5"), r("2909")), c = r("3835"),
+            d = r("b85c"), l = function () {
                 var t = this, e = t.$createElement, r = t._self._c || e;
                 return r("div", [r("table", t._l(t.value.h, (function (e) {
                     return r("tr", {key: e, staticClass: "row"}, t._l(t.value.w, (function (s) {
@@ -419,12 +420,12 @@
                         this.$forceUpdate()
                     }
                 }
-            }, f = u, v = r("2877"), b = Object(v["a"])(f, l, p, !1, null, "72dc85d3", null), g = b.exports, m = r("a4a1"),
+            }, f = u, v = r("2877"), b = Object(v["a"])(f, l, p, !1, null, "743e4b50", null), g = b.exports, m = r("a4a1"),
             w = (r("f6b9"), r("e06d")), _ = r.n(w), k = r("5a98"), x = r.n(k), y = r("d6f9"), C = r.n(y), M = r("01ce"),
-            S = r.n(M), F = r("3a03"), T = r.n(F), O = r("ab55"), j = r.n(O), $ = r("282f"), P = r.n($), z = r("b988"),
-            B = r.n(z), L = (r("dc44"), r("fa6d"), r("4ffd")), R = r.n(L), N = r("5299");
-        s["default"].use(N);
-        var I = {
+            I = r.n(M), S = r("3a03"), F = r.n(S), T = r("ab55"), O = r.n(T), j = r("282f"), $ = r.n(j), P = r("b988"),
+            z = r.n(P), B = (r("dc44"), r("fa6d"), r("4ffd")), L = r.n(B), R = r("5299");
+        s["default"].use(R);
+        var N = {
             name: "Tetris", data: function () {
                 return {
                     state: "running",
@@ -432,6 +433,7 @@
                     figuresAll: [{
                         name: "line",
                         points: [[0, 0], [1, 0], [2, 0], [3, 0]],
+                        bg: this.randomInteger(1, 4) + "" + this.randomInteger(1, 4) + this.randomInteger(1, 4) + this.randomInteger(1, 4),
                         mode: "90",
                         color: "active",
                         image: _.a
@@ -440,6 +442,7 @@
                         points: [[0, 0], [0, 1], [1, 0], [1, 1]],
                         mode: "frozen",
                         color: "active",
+                        bg: this.randomInteger(1, 4) + "" + this.randomInteger(1, 4) + this.randomInteger(1, 4) + this.randomInteger(1, 4),
                         image: _.a
                     }, {
                         name: "T",
@@ -447,30 +450,35 @@
                         mode: "rot",
                         anchor: [1, 0],
                         color: "active",
+                        bg: this.randomInteger(1, 4) + "" + this.randomInteger(1, 4) + this.randomInteger(1, 4) + this.randomInteger(1, 4),
                         image: _.a
                     }, {
                         name: "dog",
                         points: [[0, 0], [1, 0], [1, 1], [2, 1]],
                         mode: "90",
                         color: "active",
+                        bg: this.randomInteger(1, 4) + "" + this.randomInteger(1, 4) + this.randomInteger(1, 4) + this.randomInteger(1, 4),
                         image: _.a
                     }, {
                         name: "dog reverse",
                         points: [[0, 1], [1, 1], [1, 0], [2, 0]],
                         mode: "90",
                         color: "active",
+                        bg: this.randomInteger(1, 4) + "" + this.randomInteger(1, 4) + this.randomInteger(1, 4) + this.randomInteger(1, 4),
                         image: _.a
                     }, {
                         name: "L",
                         points: [[0, 0], [0, 1], [0, 2], [1, 2]],
                         mode: "rot",
                         color: "active",
+                        bg: this.randomInteger(1, 4) + "" + this.randomInteger(1, 4) + this.randomInteger(1, 4) + this.randomInteger(1, 4),
                         image: _.a
                     }, {
                         name: "L reverse",
                         points: [[1, 0], [1, 1], [1, 2], [0, 2]],
                         mode: "rot",
                         color: "active",
+                        bg: this.randomInteger(1, 4) + "" + this.randomInteger(1, 4) + this.randomInteger(1, 4) + this.randomInteger(1, 4),
                         image: _.a
                     }, {
                         name: "L",
@@ -554,9 +562,10 @@
                         name: "point",
                         points: [[0, 0]],
                         mode: "ball",
-                        color: "active",
+                        color: "active doted",
                         disabled: !1,
-                        image: _.a
+                        image: _.a,
+                        bg: this.randomInteger(1, 4) + "" + this.randomInteger(1, 4) + this.randomInteger(1, 4) + this.randomInteger(1, 4)
                     }, {
                         name: "heart",
                         points: [[0, 0], [0, 1], [1, 1], [1, 2], [2, 1], [2, 0]],
@@ -580,22 +589,22 @@
                     board: [],
                     boardClass: [],
                     preview: [],
-                    brickSize: 25,
+                    brickSize: 4,
                     smartRandom: !0,
                     emptyColor: "",
                     img: {
                         puzzleBg: _.a,
-                        Logo: R.a,
+                        Logo: L.a,
                         vokzalfin: x.a,
                         olimpfin: C.a,
-                        tsumfin: S.a,
-                        bibliofin: T.a,
-                        parusfin: j.a,
-                        facebookImg: P.a,
-                        twitterImg: B.a
+                        tsumfin: I.a,
+                        bibliofin: F.a,
+                        parusfin: O.a,
+                        facebookImg: $.a,
+                        twitterImg: z.a
                     },
                     nameObject: ["Вокзал «Південний» в Києві", "НСК Олімпійський", "ЦУМ", "Національнy бібліотекy України ім. Вернадського", "БЦ Парус"],
-                    finScore: [4, 5, 7, 12, 12]
+                    finScore: [3, 4, 6, 11, 12]
                 }
             }, components: {TetrisBoard: g, PerfectScrollbar: m["PerfectScrollbar"]}, watch: {
                 start: function (t) {
@@ -608,7 +617,10 @@
                     }
                 }
             }, methods: {
-                nextLevel: function () {
+                randomInteger: function (t, e) {
+                    var r = t - .5 + Math.random() * (e - t + 1);
+                    return Math.round(r)
+                }, nextLevel: function () {
                     this.step += 1, this.win = !1, this.start = !0, this.$nextTick((function () {
                         this.initFigures(), this.newGame(), this.$refs.board.style.backgroundPositionY = 0;
                         var t = this.$refs.boardControl;
@@ -665,8 +677,8 @@
                     } else if (4 === this.step) {
                         for (var x = 1; x < 11; x++) for (var y = 1; y < 4; y++) this.board[x - 1 + (this.board.h - y) * this.board.w] = " prev";
                         for (var C = 2; C < 8; C++) this.board[C - 1 + (this.board.h - 4) * this.board.w] = " prev";
-                        for (var M = 3; M < 8; M++) for (var S = 5; S < 12; S++) this.board[M - 1 + (this.board.h - S) * this.board.w] = " prev";
-                        for (var F = 3; F < 5; F++) this.board[F - 1 + (this.board.h - 12) * this.board.w] = " prev"
+                        for (var M = 3; M < 8; M++) for (var I = 5; I < 12; I++) this.board[M - 1 + (this.board.h - I) * this.board.w] = " prev";
+                        for (var S = 3; S < 5; S++) this.board[S - 1 + (this.board.h - 12) * this.board.w] = " prev"
                     }
                 }, testBallBoard: function () {
                     for (var t = this.board.h - 1; t > 5; t--) for (var e = 0; e < this.board.w; ++e) 5 !== e && (this.board[e + t * this.board.w] = "#080");
@@ -728,19 +740,21 @@
                         e.f()
                     }
                 }, setFigureToMap: function (t, e) {
-                    var r, s = arguments.length > 2 && void 0 !== arguments[2] && arguments[2],
-                        a = s ? [-e.figure.anchor[0] + t.w / 2 | 0, -e.figure.anchor[1] + t.h / 2 | 0] : [e.pos[0], e.pos[1]],
-                        i = Object(c["a"])(a, 2), o = i[0], n = i[1],
-                        h = Object(d["a"])(e.figure.pointsRotated[e.rotate]);
+                    var r = arguments.length > 2 && void 0 !== arguments[2] && arguments[2];
+                    console.log(e);
+                    var s = r ? [-e.figure.anchor[0] + t.w / 2 | 0, -e.figure.anchor[1] + t.h / 2 | 0] : [e.pos[0], e.pos[1]],
+                        a = Object(c["a"])(s, 2), i = a[0], o = a[1];
+                    console.log(e.figure.pointsRotated[e.rotate]);
+                    var n, h = 0, l = Object(d["a"])(e.figure.pointsRotated[e.rotate]);
                     try {
-                        for (h.s(); !(r = h.n()).done;) {
-                            var l = r.value, p = o + l[0], u = n + l[1];
-                            p >= 0 && p < t.w && u >= 0 && u < t.h && (t[p + u * t.w] = e.color)
+                        for (l.s(); !(n = l.n()).done;) {
+                            var p = n.value, u = i + p[0], f = o + p[1];
+                            u >= 0 && u < t.w && f >= 0 && f < t.h && (t[u + f * t.w].match("background"), t[u + f * t.w] = e.color + " background" + e.figure.bg[h], h++)
                         }
-                    } catch (f) {
-                        h.e(f)
+                    } catch (v) {
+                        l.e(v)
                     } finally {
-                        h.f()
+                        l.f()
                     }
                 }, unsetFigureFromMap: function (t, e) {
                     var r = arguments.length > 2 && void 0 !== arguments[2] && arguments[2],
@@ -841,7 +855,7 @@
                 }, loop: function () {
                     this.passThrough || this.unsetFigureFromMap(this.board, this.current), this.current.pos[1] += 1;
                     var t = this.checkCollide(this.board, this.current);
-                    if (0 === t) this.setFigureToMap(this.board, this.current), "ball" === this.current.figure.mode && (this.passThrough = !1, this.discardBuilded(this.board), this.setFigureToMap(this.board, this.current)), this.$refs.board && this.$refs.board.update(); else {
+                    if (0 === t) this.setFigureToMap(this.board, this.current), "ball" === this.current.figure.mode && (this.passThrough = !1, this.setFigureToMap(this.board, this.current)), this.$refs.board && this.$refs.board.update(); else {
                         if ("explode" === this.current.figure.mode) return this.explode();
                         if ("ball" === this.current.figure.mode && 1 === t && this.checkDownFree()) return this.passThrough = !0, this.setFigureToMap(this.board, this.current), void this.$refs.board.update();
                         this.current.pos[1] -= 1, this.setFigureToMap(this.board, this.current), this.discardBuilded(this.board), this.$refs.board && this.$refs.board.update(), this.swapNew(), this.speedup && (this.speedup = !1, this.calcSpeed())
@@ -856,7 +870,7 @@
                     try {
                         for (s.s(); !(r = s.n()).done;) {
                             var a = r.value, i = e.pos[0] + a[0], o = e.pos[1] + a[1];
-                            if (i < 0 || i >= t.w || o < 0 || o >= t.h) return e.color = "final", 2;
+                            if (i < 0 || i >= t.w || o < 0 || o >= t.h) return o >= t.h && (e.color = "final"), 2;
                             if (t[i + o * t.w] !== this.emptyColor) return e.color = "final", 1
                         }
                     } catch (n) {
@@ -871,14 +885,14 @@
                         while (r >= 0) {
                             for (var s = 0, a = 0; a < t.w; ++a) t[a + r * t.w] !== this.emptyColor && ++s;
                             if (s !== t.w) break;
-                            --r, ++this.score, document.querySelector(".board").style.backgroundPositionY = this.brickSize * this.score + "px"
+                            --r, ++this.score, document.querySelector(".board").style.backgroundPositionY = this.brickSize * this.score + .07 * (this.score + 1) + "vh"
                         }
                         if (r !== e) for (var i = e - r, o = e; o >= i; --o) for (var n = 0; n < t.w; ++n) "prev" !== t[n + (o - i) * t.w] && (t[n + o * t.w] = t[n + (o - i) * t.w])
                     }
                 }, newGame: function () {
                     if (this.figures = this.figuresAll.filter((function (t) {
                         return !t.disabled
-                    })), !this.figures.length) return alert("no figures selected");
+                    })), console.log(this.figures[0]), !this.figures.length) return alert("no figures selected");
                     this.board.w = +this.board.w, this.board.h = +this.board.h, this.state = "end", this.bucket = [], this.last = null, this.calcSpeed(), this.initBoard(), this.initPreview(), this.highScore = Math.max(this.score, this.highScore), this.score = 0, this.state = "running", this.current = this.genNew(), this.setFigureToMap(this.board, this.current), this.next = this.genNew(), this.setFigureToMap(this.preview, this.next, !0), this.intervalId = null, this.calcSpeed(), this.loop(), this.$refs.preview && this.$refs.preview.update()
                 }, showSettings: function () {
                     this.state = "settings", this.calcSpeed()
@@ -893,7 +907,7 @@
                 this.board.w = 10, this.board.h = 18, this.preview.w = 4, this.preview.h = 4, this.initFigures()
             }, mounted: function () {
             }
-        }, A = I, E = Object(v["a"])(A, o, n, !1, null, "2c1d23f4", null), D = E.exports, G = {
+        }, A = N, E = Object(v["a"])(A, o, n, !1, null, "2dcfe054", null), D = E.exports, G = {
             name: "App", data: function () {
                 return {start: !1}
             }, components: {Tetris: D}
@@ -904,16 +918,16 @@
             }
         }).$mount("#app")
     }, "5a98": function (t, e, r) {
-        t.exports ="."+ r.p + "img/vokzalfin.ccf2f78f.svg"
+        t.exports ="."+  r.p + "img/vokzalfin.ccf2f78f.svg"
     }, ab55: function (t, e, r) {
-        t.exports = "."+ r.p + "img/parusfin.ec5410f3.svg"
+        t.exports ="."+  r.p + "img/parusfin.ec5410f3.svg"
     }, b988: function (t, e, r) {
-        t.exports = "."+ r.p + "img/twitter.9cac25de.svg"
+        t.exports ="."+  r.p + "img/twitter.9cac25de.svg"
     }, d6f9: function (t, e, r) {
-        t.exports ="."+  r.p + "img/olimpfin.f38e9ce1.svg"
+        t.exports = "."+ r.p + "img/olimpfin.f38e9ce1.svg"
     }, dc44: function (t, e, r) {
     }, e06d: function (t, e, r) {
-        t.exports = "."+ r.p + "img/puzzlebg.27f250a7.jpeg"
+        t.exports ="."+ r.p + "img/puzzlebg.5007867d.jpeg"
     }
 });
-//# sourceMappingURL=app.7dbed30c.js.map
+//# sourceMappingURL=app.ee49dd98.js.map
