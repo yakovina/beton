@@ -1,17 +1,17 @@
 (function (t) {
     function e(e) {
-        for (var s, o, n = e[0], h = e[1], c = e[2], l = 0, p = []; l < n.length; l++) o = n[l], Object.prototype.hasOwnProperty.call(a, o) && a[o] && p.push(a[o][0]), a[o] = 0;
-        for (s in h) Object.prototype.hasOwnProperty.call(h, s) && (t[s] = h[s]);
-        d && d(e);
+        for (var s, o, n = e[0], c = e[1], h = e[2], d = 0, p = []; d < n.length; d++) o = n[d], Object.prototype.hasOwnProperty.call(a, o) && a[o] && p.push(a[o][0]), a[o] = 0;
+        for (s in c) Object.prototype.hasOwnProperty.call(c, s) && (t[s] = c[s]);
+        l && l(e);
         while (p.length) p.shift()();
-        return i.push.apply(i, c || []), r()
+        return i.push.apply(i, h || []), r()
     }
 
     function r() {
         for (var t, e = 0; e < i.length; e++) {
             for (var r = i[e], s = !0, n = 1; n < r.length; n++) {
-                var h = r[n];
-                0 !== a[h] && (s = !1)
+                var c = r[n];
+                0 !== a[c] && (s = !1)
             }
             s && (i.splice(e--, 1), t = o(o.s = r[0]))
         }
@@ -51,10 +51,10 @@
     }, o.o = function (t, e) {
         return Object.prototype.hasOwnProperty.call(t, e)
     }, o.p = "/";
-    var n = window["webpackJsonp"] = window["webpackJsonp"] || [], h = n.push.bind(n);
+    var n = window["webpackJsonp"] = window["webpackJsonp"] || [], c = n.push.bind(n);
     n.push = e, n = n.slice();
-    for (var c = 0; c < n.length; c++) e(n[c]);
-    var d = h;
+    for (var h = 0; h < n.length; h++) e(n[h]);
+    var l = c;
     i.push([0, "chunk-vendors"]), r()
 })({
     0: function (t, e, r) {
@@ -62,9 +62,9 @@
     }, "01ce": function (t, e, r) {
         t.exports = "."+r.p + "img/tsumfin.72324507.svg"
     }, "282f": function (t, e, r) {
-        t.exports ="."+ r.p + "img/facebook.d41d8cd9.svg"
+        t.exports = "."+r.p + "img/facebook.d41d8cd9.svg"
     }, "3a03": function (t, e, r) {
-        t.exports ="."+ r.p + "img/bibliofin.41db7e79.svg"
+        t.exports = "."+r.p + "img/bibliofin.41db7e79.svg"
     }, "4ffd": function (t, e, r) {
         t.exports ="."+ r.p + "img/logo.f9ee5072.png"
     }, "56d7": function (t, e, r) {
@@ -185,39 +185,11 @@
                 })], 1) : t._e()])], 1), r("div", {
                     staticClass: "partnersinfo-wrapper ",
                     class: {active: !0 === t.finalWin}
-                }, [r("transition", {attrs: {name: "fade"}}, [!0 === t.finalWin ? r("div", {staticClass: "partnersinfo__bg"}) : t._e()]), r("transition", {attrs: {name: "fademove"}}, [!0 === t.finalWin ? r("perfect-scrollbar", {staticClass: "partnersinfo fin"}, [r("a", {attrs: {href: "https://bit.ly/2VrMA3E"}}, [r("img", {
-                    staticClass: "partnersinfo__img",
-                    attrs: {src: t.img.Logo, alt: ""}
-                })]), r("div", {staticClass: "partnersinfo__desc"}, [r("h2", [t._v("Поздоровляємо з перемогою!")]), r("p", [t._v(" Понад 60% будівель Києва зведено з використанням "), r("a", {
-                    attrs: {
-                        href: "https://kovalska.com/beton-vid-kovalskoyi",
-                        target: "_blank"
-                    }
-                }, [t._v("«Бетону від Ковальської»")]), t._v(". Це – знакові громадські об’єкти: НСК Олімпійський, Дарницький міст, модерністська бібліотека ім. Вернадського, торговельні центри, бізнес-центри, термінали аеропортів, вокзали й житло. ")]), r("p", [t._v(" З бетоном працювали й ним захоплювалися кращі архітектори світу – від представників школи Баухауз, інтернаціонального стилю, міжвоєнного та післявоєнного модернізму й до сучасності. В Києві є унікальна спадщина у вигляді архітектури модернізму, а в післявоєнний період з бетону зводилися й цілі житлові райони. ")]), r("p", [t._v(" Група компаній "), r("a", {
-                    attrs: {
-                        href: "https://kovalska.com/beton-vid-kovalskoyi",
-                        target: "_blank"
-                    }
-                }, [t._v("«Ковальська»")]), t._v(" працює на українському ринку шістдесят чотири роки й за цей час стала номером один серед виробників бетонних сумішей України. Про якість бетону говорить, перш за все, довговічність будівель, які зводяться. Адже бетон – це основа будь-якого будинку. Якщо зробити неякісні перекриття, страждатиме весь дім – протікатиме стеля, псуватиметься внутрішнє оздоблення.")]), r("p", [t._v(" Не залежно від того, чи ви самостійно зводите своє житло, інвестуєте у квартиру в новобудові чи задіяні у створенні інфраструктурного об’єкта – вибір бетону має відбуватися ретельно. Важливо, хто виробник бетону, яка його якість. "), r("a", {
-                    attrs: {
-                        href: "https://kovalska.com/beton-vid-kovalskoyi",
-                        target: "_blank"
-                    }
-                }, [t._v("«Ковальська»")]), t._v(" має сертифікати якості від всіх виробників на всі матеріали своїх заводів. Є три ключові показники бетону, які потрібно перевіряти раз в півроку й компанія чи не єдина в Україні, хто здійснює весь контроль, попри те, що це – складна й затратна процедура. ")]), r("p", [t._v(" Широкий асортимент матеріалів дозволяє реалізувати будь-які архітектурні задуми. "), r("a", {
-                    attrs: {
-                        href: "https://kovalska.com/beton-vid-kovalskoyi",
-                        target: "_blank"
-                    }
-                }, [t._v("«Ковальська»")]), t._v(" виготовляє власні добавки і може змінювати їхній склад, що дозволяє швидко розробляти нові рішення – розробити бетон за індивідуальним замовленням можуть протягом тижня. ")]), r("p", [t._v(" Також у «"), r("a", {
-                    attrs: {
-                        href: "https://kovalska.com/beton-vid-kovalskoyi",
-                        target: "_blank"
-                    }
-                }, [t._v("Ковальської")]), t._v("» є власний парк бетономішалок (міксерів), який налічує ___ авто. Їх можна часто побачити на вулицях Києва, адже завдяки «міксерам» бетон оперативно доставляється у будь-яку точку міста. ")])]), r("social-sharing", {
+                }, [r("transition", {attrs: {name: "fade"}}, [!0 === t.finalWin ? r("div", {staticClass: "partnersinfo__bg"}) : t._e()]), r("transition", {attrs: {name: "fademove"}}, [!0 === t.finalWin ? r("perfect-scrollbar", {staticClass: "partnersinfo fin"}, [r("div", {staticClass: "partnersinfo__desc"}, [r("h2", [t._v("Вітаємо, ви успішно пройшли гру!"), r("br"), r("p", [t._v(" Час проходження: "), r("span", {staticStyle: {color: "#32c96f"}}, [t._v(t._s(+t.currentMin))]), t._v(" хвилин "), r("span", {staticStyle: {color: "#32c96f"}}, [t._v(t._s(t.currentSec))]), t._v(" секунд ")])]), r("social-sharing", {
                     attrs: {url: "https://vuejs.org/"}, inlineTemplate: {
                         render: function () {
                             var t = this, e = t.$createElement, r = t._self._c || e;
-                            return r("div", {staticClass: "social"}, [r("network", {attrs: {network: "facebook"}}, [r("svg", {
+                            return r("div", {staticClass: "social"}, [r("div", {staticClass: "social__desc"}, [t._v("Розкажіть про це друзям:")]), r("div", {staticClass: "social__netw"}, [r("network", {attrs: {network: "facebook"}}, [r("svg", {
                                 attrs: {
                                     height: "512pt",
                                     viewBox: "0 0 512 512",
@@ -252,10 +224,57 @@
                             }), r("path", {
                                 staticStyle: {fill: "#FFFFFF"},
                                 attrs: {d: "M60.377,337.822c30.33,19.236,66.308,30.368,104.875,30.368c108.349,0,196.18-87.841,196.18-196.18\n\t\tc0-2.705-0.057-5.39-0.161-8.067c3.919-3.084,28.157-22.511,34.098-35c0,0-19.683,8.18-38.947,10.107\n\t\tc-0.038,0-0.085,0.009-0.123,0.009c0,0,0.038-0.019,0.104-0.066c1.775-1.186,26.591-18.079,29.951-38.207\n\t\tc0,0-13.922,7.431-33.415,13.932c-3.227,1.072-6.605,2.126-10.088,3.103c-12.565-13.41-30.425-21.78-50.25-21.78\n\t\tc-38.027,0-68.841,30.805-68.841,68.803c0,5.362,0.617,10.581,1.784,15.592c-5.314-0.218-86.237-4.755-141.289-71.423\n\t\tc0,0-32.902,44.917,19.607,91.105c0,0-15.962-0.636-29.733-8.864c0,0-5.058,54.416,54.407,68.329c0,0-11.701,4.432-30.368,1.272\n\t\tc0,0,10.439,43.968,63.271,48.077c0,0-41.777,37.74-101.081,28.885L60.377,337.822z"}
-                            })])])])], 1)
+                            })])])])], 1)])
                         }, staticRenderFns: []
                     }
-                })], 1) : t._e()], 1)], 1), r("div", {attrs: {id: "tetrishold"}}, [r("div", {attrs: {id: "tetris"}}), r("div", {
+                }), r("div", {staticClass: "fin__images"}, [r("img", {
+                    attrs: {
+                        src: t.img.olimpfin,
+                        alt: ""
+                    }
+                }), r("img", {attrs: {src: t.img.bibliofin, alt: ""}}), r("img", {
+                    attrs: {
+                        src: t.img.parusfin,
+                        alt: ""
+                    }
+                }), r("img", {attrs: {src: t.img.tsumfin, alt: ""}}), r("img", {
+                    attrs: {
+                        src: t.img.vokzalfin,
+                        alt: ""
+                    }
+                })]), r("p", [t._v(" Понад 60% будівель Києва зведено з використанням "), r("a", {
+                    attrs: {
+                        href: "https://kovalska.com/beton-vid-kovalskoyi",
+                        target: "_blank"
+                    }
+                }, [t._v("«Бетону від Ковальської»")]), t._v(". Це – знакові громадські об’єкти: НСК Олімпійський, Дарницький міст, модерністська бібліотека ім. Вернадського, торговельні центри, бізнес-центри, термінали аеропортів, вокзали й житло. ")]), r("p", [t._v(" З бетоном працювали й ним захоплювалися кращі архітектори світу – від представників школи Баухауз, інтернаціонального стилю, міжвоєнного та післявоєнного модернізму й до сучасності. В Києві є унікальна спадщина у вигляді архітектури модернізму, а в післявоєнний період з бетону зводилися й цілі житлові райони. ")]), r("p", [t._v(" Група компаній "), r("a", {
+                    attrs: {
+                        href: "https://kovalska.com/beton-vid-kovalskoyi",
+                        target: "_blank"
+                    }
+                }, [t._v("«Ковальська»")]), t._v(" працює на українському ринку шістдесят чотири роки й за цей час стала номером один серед виробників бетонних сумішей України. Про якість бетону говорить, перш за все, довговічність будівель, які зводяться. Адже бетон – це основа будь-якого будинку. Якщо зробити неякісні перекриття, страждатиме весь дім – протікатиме стеля, псуватиметься внутрішнє оздоблення.")]), r("p", [t._v(" Не залежно від того, чи ви самостійно зводите своє житло, інвестуєте у квартиру в новобудові чи задіяні у створенні інфраструктурного об’єкта – вибір бетону має відбуватися ретельно. Важливо, хто виробник бетону, яка його якість. "), r("a", {
+                    attrs: {
+                        href: "https://kovalska.com/beton-vid-kovalskoyi",
+                        target: "_blank"
+                    }
+                }, [t._v("«Ковальська»")]), t._v(" має сертифікати якості від всіх виробників на всі матеріали своїх заводів. Є три ключові показники бетону, які потрібно перевіряти раз в півроку й компанія чи не єдина в Україні, хто здійснює весь контроль, попри те, що це – складна й затратна процедура. ")]), r("p", [t._v(" Широкий асортимент матеріалів дозволяє реалізувати будь-які архітектурні задуми. "), r("a", {
+                    attrs: {
+                        href: "https://kovalska.com/beton-vid-kovalskoyi",
+                        target: "_blank"
+                    }
+                }, [t._v("«Ковальська»")]), t._v(" виготовляє власні добавки і може змінювати їхній склад, що дозволяє швидко розробляти нові рішення – розробити бетон за індивідуальним замовленням можуть протягом тижня. ")]), r("p", [t._v(" Також у «"), r("a", {
+                    attrs: {
+                        href: "https://kovalska.com/beton-vid-kovalskoyi",
+                        target: "_blank"
+                    }
+                }, [t._v("Ковальської")]), t._v("» є власний парк бетономішалок. Їх можна часто побачити на вулицях Києва, адже завдяки «міксерам» бетон оперативно доставляється у будь-яку точку міста. ")]), r("button", {
+                    staticClass: "tetris__nextbutton",
+                    on: {
+                        click: function (e) {
+                            t.step = 1, t.finalWin = !1, t.gameon = !1, t.win = !1, t.currentMin = "00", t.currentSec = "00", t.currentTime.setMinutes(0, 0)
+                        }
+                    }
+                }, [t._v("Грати спочатку!! ")])], 1)]) : t._e()], 1)], 1), r("div", {attrs: {id: "tetrishold"}}, [r("div", {attrs: {id: "tetris"}}), r("div", {
                     directives: [{
                         name: "show",
                         rawName: "v-show",
@@ -265,7 +284,13 @@
                 }, [r("div", {
                     staticClass: "main",
                     style: {"--brickSize": t.brickSize + "vh"}
-                }, [r("div", {staticClass: "left"}, [t.gameon || t.win || t.start ? t._e() : r("div", {staticClass: "firstscreen"}, [!1 === t.instructions ? r("div", [r("h2", {staticClass: "firstscreen__header"}, [t._v(" Зіграйте у київський тетріс! ")]), t._m(1), r("button", {
+                }, [r("div", {staticClass: "left"}, [t.showAnimation && t.start ? r("img", {
+                    staticClass: "betonomeshalka",
+                    attrs: {src: t.img.betonomeshalka, alt: ""}
+                }) : t._e(), t.showAnimation ? t._e() : r("img", {
+                    staticClass: "betonomeshalka",
+                    attrs: {src: t.img.betonomeshalkastop, alt: ""}
+                }), t.gameon || t.win || t.start ? t._e() : r("div", {staticClass: "firstscreen"}, [!1 === t.instructions ? r("div", [r("h2", {staticClass: "firstscreen__header"}, [t._v(" Зіграйте у київський тетріс! ")]), t._m(1), r("button", {
                     staticClass: "tetris__nextbutton",
                     on: {
                         click: function (e) {
@@ -444,7 +469,7 @@
                 }, [r("svg", {
                     staticStyle: {"enable-background": "new 0 0 491.996 491.996"},
                     attrs: {viewBox: "0 0 491.996 491.996", "xml:space": "preserve"}
-                }, [r("path", {attrs: {d: "M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848\n\t\t\tL62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128\n\t\t\tc-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084\n\t\t\tc7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224\n\t\t\tC491.996,136.902,489.204,130.046,484.132,124.986z"}})])])])], 1), r("div", {staticClass: "info"}, [r("tetris-board", {
+                }, [r("path", {attrs: {d: "M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848\n\t\t\tL62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128\n\t\t\tc-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084\n\t\t\tc7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224\n\t\t\tC491.996,136.902,489.204,130.046,484.132,124.986z"}})])])])], 1), !0 === t.start ? r("div", {staticClass: "info"}, [r("tetris-board", {
                     ref: "preview",
                     staticClass: "preview",
                     model: {
@@ -452,7 +477,7 @@
                             t.preview = e
                         }, expression: "preview"
                     }
-                })], 1)])])])])
+                })], 1) : t._e(), !0 === t.start ? r("div", {staticClass: "info info-timer"}, [t._v(" " + t._s(t.currentMin) + ":" + t._s(t.currentSec) + " ")]) : t._e()])])])])
             }, n = [function () {
                 var t = this, e = t.$createElement, r = t._self._c || e;
                 return r("div", {staticClass: "tetris__desc"}, [t._v(" Партнерський "), r("br"), t._v(" матеріал з "), r("span", {staticClass: "tetris__why"}, [t._v("Що це означає?")])])
@@ -461,9 +486,9 @@
                 return r("div", {staticClass: "firstscreen__desc"}, [r("p", [t._v("Збирайте найвідоміші об’єкти і дізнавайтеся їхню історію!")])])
             }, function () {
                 var t = this, e = t.$createElement, r = t._self._c || e;
-                return r("div", {staticClass: "firstscreen__desc"}, [r("p", [t._v(" В грі п’ять рівнів, від найпростішого – до складного. Потрібно зібрати простір навколо кожної будівлі. Рівень закінчується, коли об’єкт опускається вниз, а ви переходите до наступного етапу.")])])
-            }], h = (r("4de4"), r("d81d"), r("ac1f"), r("466d"), r("38cf"), r("18a5"), r("2909")), c = r("3835"),
-            d = r("b85c"), l = function () {
+                return r("div", {staticClass: "firstscreen__desc"}, [r("p", [t._v(" В грі п’ять рівнів, від найпростішого – до складного. Потрібно зібрати простір навколо кожної будівлі. Рівень закінчується, коли об’єкт опускається вниз, а ви переходите до наступного етапу. Тисніть вліво, вправо, перевернути й прискорити, щоб управляти блоками. ")])])
+            }], c = (r("4de4"), r("d81d"), r("ac1f"), r("466d"), r("38cf"), r("18a5"), r("2909")), h = r("3835"),
+            l = r("b85c"), d = function () {
                 var t = this, e = t.$createElement, r = t._self._c || e;
                 return r("div", [r("table", t._l(t.value.h, (function (e) {
                     return r("tr", {key: e, staticClass: "row"}, t._l(t.value.w, (function (s) {
@@ -477,15 +502,15 @@
                         this.$forceUpdate()
                     }
                 }
-            }, f = u, v = r("2877"), b = Object(v["a"])(f, l, p, !1, null, "743e4b50", null), g = b.exports, m = r("a4a1"),
-            w = (r("f6b9"), r("e06d")), _ = r.n(w), k = r("5a98"), x = r.n(k), y = r("d6f9"), C = r.n(y), M = r("01ce"),
-            F = r.n(M), S = r("3a03"), I = r.n(S), T = r("ab55"), O = r.n(T), j = r("282f"), $ = r.n(j), z = r("b988"),
-            P = r.n(z), B = (r("dc44"), r("fa6d"), r("4ffd")), L = r.n(B), R = r("5299");
-        s["default"].use(R);
-        var N = {
+            }, f = u, v = r("2877"), b = Object(v["a"])(f, d, p, !1, null, "743e4b50", null), m = b.exports, g = r("a4a1"),
+            w = (r("f6b9"), r("e06d")), _ = r.n(w), k = r("5a98"), x = r.n(k), y = r("d6f9"), C = r.n(y), S = r("01ce"),
+            M = r.n(S), I = r("3a03"), F = r.n(I), T = r("ab55"), j = r.n(T), O = r("282f"), z = r.n(O), $ = r("b988"),
+            P = r.n($), B = r("ff35"), L = r.n(B), R = r("5c1f"), N = r.n(R), A = (r("dc44"), r("fa6d"), r("4ffd")),
+            E = r.n(A), W = r("5299");
+        s["default"].use(W);
+        var D = {
             name: "Tetris", data: function () {
                 return {
-                    finalWin: !1,
                     state: "running",
                     path: window.location,
                     figuresAll: [{
@@ -608,14 +633,15 @@
                         name: "L",
                         points: [[0, 0], [0, 1], [0, 2], [0, 3], [1, 3]],
                         mode: "rot",
-                        color: "#afa",
+                        color: "active bomb",
                         disabled: !0
                     }, {
                         name: "creeper",
                         points: [[1, 1], [1, 2], [2, 1], [2, 2], [0, 0, "#f00"], [3, 0, "#f00"]],
                         mode: "explode",
-                        color: "#f80",
-                        disabled: !0
+                        bg: "",
+                        color: "active bomb",
+                        disabled: !1
                     }, {
                         name: "point",
                         points: [[0, 0]],
@@ -638,9 +664,12 @@
                     score: 0,
                     highScore: 0,
                     winScore: 4,
+                    showAnimation: !0,
+                    timer: 0,
                     showPartners: !1,
                     instructions: !1,
                     step: 1,
+                    finalWin: !1,
                     start: !1,
                     gameon: !1,
                     win: !1,
@@ -650,32 +679,44 @@
                     brickSize: 4,
                     smartRandom: !0,
                     emptyColor: "",
+                    currentTime: "",
+                    currentMin: "00",
+                    currentSec: "00",
                     img: {
                         puzzleBg: _.a,
-                        Logo: L.a,
+                        Logo: E.a,
                         vokzalfin: x.a,
                         olimpfin: C.a,
-                        tsumfin: F.a,
-                        bibliofin: I.a,
-                        parusfin: O.a,
-                        facebookImg: $.a,
-                        twitterImg: P.a
+                        tsumfin: M.a,
+                        bibliofin: F.a,
+                        parusfin: j.a,
+                        facebookImg: z.a,
+                        twitterImg: P.a,
+                        betonomeshalka: L.a,
+                        betonomeshalkastop: N.a
                     },
                     nameObject: ["Вокзал «Південний» в Києві", "НСК Олімпійський", "ЦУМ", "Національнy бібліотекy України ім. Вернадського", "БЦ Парус"],
                     finScore: [3, 4, 6, 11, 12]
                 }
-            }, components: {TetrisBoard: g, PerfectScrollbar: m["PerfectScrollbar"]}, watch: {
+            }, components: {TetrisBoard: m, PerfectScrollbar: g["PerfectScrollbar"]}, watch: {
                 start: function (t) {
                     if (t) {
                         this.newGame();
                         var e = this.$refs.boardControl;
                         e.focus(), setTimeout((function () {
                             return e.focus()
-                        }), 500)
-                    }
+                        }), 500), this.startTimer()
+                    } else this.stopTimer()
                 }
             }, methods: {
-                randomInteger: function (t, e) {
+                startTimer: function () {
+                    var t = this;
+                    this.timer = setInterval((function () {
+                        t.currentTime.setSeconds(t.currentTime.getSeconds() + 1), t.currentMin = t.currentTime.getMinutes(), t.currentMin < 10 && (t.currentMin = "0" + t.currentMin), t.currentSec = t.currentTime.getSeconds(), t.currentSec < 10 && (t.currentSec = "0" + t.currentSec)
+                    }), 1e3)
+                }, stopTimer: function () {
+                    clearTimeout(this.timer)
+                }, randomInteger: function (t, e) {
                     var r = t - .5 + Math.random() * (e - t + 1);
                     return Math.round(r)
                 }, nextLevel: function () {
@@ -687,7 +728,7 @@
                         }), 500)
                     }))) : this.finalWin = !0
                 }, toggleFigures: function (t) {
-                    var e, r = Object(d["a"])(this.figuresAll);
+                    var e, r = Object(l["a"])(this.figuresAll);
                     try {
                         for (r.s(); !(e = r.n()).done;) {
                             var s = e.value;
@@ -718,25 +759,25 @@
                     } else if (2 === this.step) {
                         for (var i = 1; i < 11; i++) this.board[i - 1 + (this.board.h - 1) * this.board.w] = " prev";
                         for (var o = 2; o < 10; o++) for (var n = 2; n < 5; n++) this.board[o - 1 + (this.board.h - n) * this.board.w] = " prev";
-                        for (var h = 4; h < 8; h++) this.board[h - 1 + (this.board.h - 5) * this.board.w] = " prev"
+                        for (var c = 4; c < 8; c++) this.board[c - 1 + (this.board.h - 5) * this.board.w] = " prev"
                     } else if (3 === this.step) {
-                        for (var c = 1; c < 11; c++) this.board[c - 1 + (this.board.h - 1) * this.board.w] = " prev";
-                        for (var d = 2; d < 11; d++) for (var l = 2; l < 5; l++) this.board[d - 1 + (this.board.h - l) * this.board.w] = " prev";
+                        for (var h = 1; h < 11; h++) this.board[h - 1 + (this.board.h - 1) * this.board.w] = " prev";
+                        for (var l = 2; l < 11; l++) for (var d = 2; d < 5; d++) this.board[l - 1 + (this.board.h - d) * this.board.w] = " prev";
                         for (var p = 3; p < 9; p++) this.board[p - 1 + (this.board.h - 5) * this.board.w] = " prev";
                         for (var u = 4; u < 8; u++) this.board[u - 1 + (this.board.h - 6) * this.board.w] = " prev";
                         for (var f = 5; f < 8; f++) this.board[f - 1 + (this.board.h - 7) * this.board.w] = " prev"
                     } else if (5 === this.step) {
                         for (var v = 3; v < 9; v++) this.board[v - 1 + (this.board.h - 1) * this.board.w] = " prev";
                         for (var b = 3; b < 9; b++) this.board[b - 1 + (this.board.h - 2) * this.board.w] = " prev";
-                        for (var g = 3; g < 9; g++) this.board[g - 1 + (this.board.h - 3) * this.board.w] = " prev";
-                        for (var m = 4; m < 9; m++) this.board[m - 1 + (this.board.h - 4) * this.board.w] = " prev";
+                        for (var m = 3; m < 9; m++) this.board[m - 1 + (this.board.h - 3) * this.board.w] = " prev";
+                        for (var g = 4; g < 9; g++) this.board[g - 1 + (this.board.h - 4) * this.board.w] = " prev";
                         for (var w = 4; w < 8; w++) for (var _ = 5; _ < 12; _++) this.board[w - 1 + (this.board.h - _) * this.board.w] = " prev";
                         for (var k = 5; k < 8; k++) this.board[k - 1 + (this.board.h - 12) * this.board.w] = " prev"
                     } else if (4 === this.step) {
                         for (var x = 1; x < 11; x++) for (var y = 1; y < 4; y++) this.board[x - 1 + (this.board.h - y) * this.board.w] = " prev";
                         for (var C = 2; C < 8; C++) this.board[C - 1 + (this.board.h - 4) * this.board.w] = " prev";
-                        for (var M = 3; M < 8; M++) for (var F = 5; F < 12; F++) this.board[M - 1 + (this.board.h - F) * this.board.w] = " prev";
-                        for (var S = 3; S < 5; S++) this.board[S - 1 + (this.board.h - 12) * this.board.w] = " prev"
+                        for (var S = 3; S < 8; S++) for (var M = 5; M < 12; M++) this.board[S - 1 + (this.board.h - M) * this.board.w] = " prev";
+                        for (var I = 3; I < 5; I++) this.board[I - 1 + (this.board.h - 12) * this.board.w] = " prev"
                     }
                 }, testBallBoard: function () {
                     for (var t = this.board.h - 1; t > 5; t--) for (var e = 0; e < this.board.w; ++e) 5 !== e && (this.board[e + t * this.board.w] = "#080");
@@ -745,12 +786,12 @@
                     this.preview.length = this.preview.w * this.preview.h;
                     for (var t = 0; t < this.preview.length; ++t) this.preview[t] = this.emptyColor
                 }, initFigures: function () {
-                    var t, e = Object(d["a"])(this.figuresAll);
+                    var t, e = Object(l["a"])(this.figuresAll);
                     try {
                         var r = function () {
                             var e = t.value, r = 0, s = 0;
                             if (!e.anchor) {
-                                var a, i = Object(d["a"])(e.points);
+                                var a, i = Object(l["a"])(e.points);
                                 try {
                                     for (i.s(); !(a = i.n()).done;) {
                                         var o = a.value;
@@ -798,37 +839,35 @@
                         e.f()
                     }
                 }, setFigureToMap: function (t, e) {
-                    var r = arguments.length > 2 && void 0 !== arguments[2] && arguments[2];
-                    console.log(e);
-                    var s = r ? [-e.figure.anchor[0] + t.w / 2 | 0, -e.figure.anchor[1] + t.h / 2 | 0] : [e.pos[0], e.pos[1]],
-                        a = Object(c["a"])(s, 2), i = a[0], o = a[1];
-                    console.log(e.figure.pointsRotated[e.rotate]);
-                    var n, h = 0, l = Object(d["a"])(e.figure.pointsRotated[e.rotate]);
+                    var r, s = arguments.length > 2 && void 0 !== arguments[2] && arguments[2],
+                        a = s ? [-e.figure.anchor[0] + t.w / 2 | 0, -e.figure.anchor[1] + t.h / 2 | 0] : [e.pos[0], e.pos[1]],
+                        i = Object(h["a"])(a, 2), o = i[0], n = i[1], c = 0,
+                        d = Object(l["a"])(e.figure.pointsRotated[e.rotate]);
                     try {
-                        for (l.s(); !(n = l.n()).done;) {
-                            var p = n.value, u = i + p[0], f = o + p[1];
-                            u >= 0 && u < t.w && f >= 0 && f < t.h && (t[u + f * t.w].match("background"), t[u + f * t.w] = e.color + " background" + e.figure.bg[h], h++)
+                        for (d.s(); !(r = d.n()).done;) {
+                            var p = r.value, u = o + p[0], f = n + p[1];
+                            u >= 0 && u < t.w && f >= 0 && f < t.h && (t[u + f * t.w].match("final") || (t[u + f * t.w] = e.color + " background" + e.figure.bg[c]), c++)
                         }
                     } catch (v) {
-                        l.e(v)
+                        d.e(v)
                     } finally {
-                        l.f()
+                        d.f()
                     }
                 }, unsetFigureFromMap: function (t, e) {
                     var r = arguments.length > 2 && void 0 !== arguments[2] && arguments[2],
                         s = r ? [-e.figure.anchor[0] + t.w / 2 | 0, -e.figure.anchor[1] + t.h / 2 | 0] : [e.pos[0], e.pos[1]],
-                        a = Object(c["a"])(s, 2), i = a[0], o = a[1];
+                        a = Object(h["a"])(s, 2), i = a[0], o = a[1];
                     e.pos[0], e.pos[1];
-                    var n, h = Object(d["a"])(e.figure.pointsRotated[e.rotate]);
+                    var n, c = Object(l["a"])(e.figure.pointsRotated[e.rotate]);
                     try {
-                        for (h.s(); !(n = h.n()).done;) {
-                            var l = n.value, p = i + l[0], u = o + l[1];
+                        for (c.s(); !(n = c.n()).done;) {
+                            var d = n.value, p = i + d[0], u = o + d[1];
                             p >= 0 && p < t.w && u >= 0 && u < t.h && (t[p + u * t.w] = this.emptyColor)
                         }
                     } catch (f) {
-                        h.e(f)
+                        c.e(f)
                     } finally {
-                        h.f()
+                        c.f()
                     }
                 }, swapNew: function () {
                     if (this.passThrough = !1, this.current = this.next, this.checkCollide(this.board, this.current) || this.score >= this.finScore[this.step - 1]) return this.end();
@@ -850,7 +889,7 @@
                     return this.last = s, a.color = s.color || "hsl(".concat(360 * Math.random() | 0, ", 100%, 50%)"), a.image = s.image, a.pos = [this.board.w / 2 - s.anchor[0] | 0, 0], a
                 }, fillBucket: function () {
                     var t = this.bucket, e = this.figures;
-                    t.length = 0, t.push.apply(t, Object(h["a"])(e)), t.push.apply(t, Object(h["a"])(e));
+                    t.length = 0, t.push.apply(t, Object(c["a"])(e)), t.push.apply(t, Object(c["a"])(e));
                     for (var r = 0; r < t.length - 1; ++r) {
                         var s = t.length - r - 1, a = Math.random() * s | 0, i = r + a, o = [t[i], t[r]];
                         t[r] = o[0], t[i] = o[1]
@@ -877,8 +916,11 @@
                         case 38:
                             this.rotate(1);
                             break;
+                        case 13:
+                            this.rotate(1);
+                            break;
                         case 40:
-                            t.repeat || "running" !== this.state || (this.speedup = !0, this.calcSpeed(), this.loop());
+                            t.preventDefault(), t.repeat || "running" !== this.state || (this.speedup = !0, this.calcSpeed(), this.loop());
                             break
                     }
                 }, keyup: function (t) {
@@ -913,9 +955,8 @@
                 }, loop: function () {
                     this.passThrough || this.unsetFigureFromMap(this.board, this.current), this.current.pos[1] += 1;
                     var t = this.checkCollide(this.board, this.current);
-                    if (0 === t) this.setFigureToMap(this.board, this.current), "ball" === this.current.figure.mode && (this.passThrough = !1, this.setFigureToMap(this.board, this.current)), this.$refs.board && this.$refs.board.update(); else {
+                    if (0 === t) this.setFigureToMap(this.board, this.current), this.$refs.board && this.$refs.board.update(); else {
                         if ("explode" === this.current.figure.mode) return this.explode();
-                        if ("ball" === this.current.figure.mode && 1 === t && this.checkDownFree()) return this.passThrough = !0, this.setFigureToMap(this.board, this.current), void this.$refs.board.update();
                         this.current.pos[1] -= 1, this.setFigureToMap(this.board, this.current), this.discardBuilded(this.board), this.$refs.board && this.$refs.board.update(), this.swapNew(), this.speedup && (this.speedup = !1, this.calcSpeed())
                     }
                 }, checkDownFree: function () {
@@ -924,7 +965,7 @@
                 }, end: function () {
                     this.highScore = Math.max(this.score, this.highScore), this.state = "end", this.calcSpeed(), this.score >= this.finScore[this.step - 1] ? this.win = !0 : this.win = !1, this.start = !1
                 }, checkCollide: function (t, e) {
-                    var r, s = Object(d["a"])(e.figure.pointsRotated[e.rotate]);
+                    var r, s = Object(l["a"])(e.figure.pointsRotated[e.rotate]);
                     try {
                         for (s.s(); !(r = s.n()).done;) {
                             var a = r.value, i = e.pos[0] + a[0], o = e.pos[1] + a[1];
@@ -945,47 +986,52 @@
                             if (s !== t.w) break;
                             --r, ++this.score, document.querySelector(".board").style.backgroundPositionY = this.brickSize * this.score + .07 * (this.score + 1) + "vh"
                         }
-                        if (r !== e) for (var i = e - r, o = e; o >= i; --o) for (var n = 0; n < t.w; ++n) "prev" !== t[n + (o - i) * t.w] && (t[n + o * t.w] = t[n + (o - i) * t.w])
+                        if (r !== e) for (var i = e - r, o = e; o >= i; --o) for (var n = 0; n < t.w; ++n) t[n + (o - i) * t.w].match("prev") || (t[n + o * t.w] = t[n + (o - i) * t.w])
                     }
                 }, newGame: function () {
                     if (this.figures = this.figuresAll.filter((function (t) {
                         return !t.disabled
-                    })), console.log(this.figures[0]), !this.figures.length) return alert("no figures selected");
+                    })), !this.figures.length) return alert("no figures selected");
                     this.board.w = +this.board.w, this.board.h = +this.board.h, this.state = "end", this.bucket = [], this.last = null, this.calcSpeed(), this.initBoard(), this.initPreview(), this.highScore = Math.max(this.score, this.highScore), this.score = 0, this.state = "running", this.current = this.genNew(), this.setFigureToMap(this.board, this.current), this.next = this.genNew(), this.setFigureToMap(this.preview, this.next, !0), this.intervalId = null, this.calcSpeed(), this.loop(), this.$refs.preview && this.$refs.preview.update()
                 }, showSettings: function () {
                     this.state = "settings", this.calcSpeed()
                 }, explode: function () {
                     for (var t = 0; t < 4; ++t) for (var e = 0; e < 4; ++e) {
                         var r = t + this.current.pos[0], s = e + this.current.pos[1];
-                        r >= 0 && r < this.board.w && s >= 0 && s < this.board.h && (this.board[r + s * this.board.w] = this.emptyColor)
+                        r >= 0 && r < this.board.w && s >= 0 && s < this.board.h && !this.board[r + s * this.board.w].match("prev") && (this.board[r + s * this.board.w] = this.emptyColor)
                     }
                     this.$refs.board.update(), this.swapNew()
                 }
             }, created: function () {
                 this.board.w = 10, this.board.h = 18, this.preview.w = 4, this.preview.h = 4, this.initFigures()
             }, mounted: function () {
+                this.currentTime = new Date, this.currentTime.setHours(0, 0, 0)
             }
-        }, A = N, E = Object(v["a"])(A, o, n, !1, null, "c1a6a7e2", null), W = E.exports, D = {
+        }, G = D, Y = Object(v["a"])(G, o, n, !1, null, "b44e8a82", null), H = Y.exports, J = {
             name: "App", data: function () {
                 return {start: !1}
-            }, components: {Tetris: W}
-        }, G = D, Y = Object(v["a"])(G, a, i, !1, null, null, null), J = Y.exports;
+            }, components: {Tetris: H}
+        }, U = J, q = Object(v["a"])(U, a, i, !1, null, null, null), V = q.exports;
         s["default"].config.productionTip = !1, new s["default"]({
             render: function (t) {
-                return t(J)
+                return t(V)
             }
         }).$mount("#app")
     }, "5a98": function (t, e, r) {
-        t.exports = "."+r.p + "img/vokzalfin.ccf2f78f.svg"
+        t.exports ="."+ r.p + "img/vokzalfin.ccf2f78f.svg"
+    }, "5c1f": function (t, e, r) {
+        t.exports = "."+r.p + "img/betongif.175bbb17.jpeg"
     }, ab55: function (t, e, r) {
         t.exports = "."+r.p + "img/parusfin.ec5410f3.svg"
     }, b988: function (t, e, r) {
-        t.exports = "."+r.p + "img/twitter.9cac25de.svg"
+        t.exports ="."+ r.p + "img/twitter.9cac25de.svg"
     }, d6f9: function (t, e, r) {
         t.exports = "."+r.p + "img/olimpfin.f38e9ce1.svg"
     }, dc44: function (t, e, r) {
     }, e06d: function (t, e, r) {
         t.exports = "."+r.p + "img/puzzlebg.5007867d.jpeg"
+    }, ff35: function (t, e, r) {
+        t.exports = "."+r.p + "img/betonomeshalka.dc729527.gif"
     }
 });
-//# sourceMappingURL=app.8d091a7d.js.map
+//# sourceMappingURL=app.d841c201.js.map
