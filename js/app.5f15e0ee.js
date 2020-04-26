@@ -62,11 +62,11 @@
     }, "01ce": function (t, e, r) {
         t.exports = "."+r.p + "img/tsumfin.72324507.svg"
     }, "282f": function (t, e, r) {
-        t.exports = "."+r.p + "img/facebook.d41d8cd9.svg"
+        t.exports = "."+ r.p + "img/facebook.d41d8cd9.svg"
     }, "3a03": function (t, e, r) {
-        t.exports = "."+r.p + "img/bibliofin.41db7e79.svg"
+        t.exports = "."+ r.p + "img/bibliofin.41db7e79.svg"
     }, "4ffd": function (t, e, r) {
-        t.exports ="."+ r.p + "img/logo.f9ee5072.png"
+        t.exports =  "."+r.p + "img/logo.f9ee5072.png"
     }, "56d7": function (t, e, r) {
         "use strict";
         r.r(e);
@@ -284,13 +284,10 @@
                 }, [r("div", {
                     staticClass: "main",
                     style: {"--brickSize": t.brickSize + "vh"}
-                }, [r("div", {staticClass: "left"}, [t.showAnimation && t.start ? r("img", {
+                }, [r("div", {staticClass: "left"}, [t.start ? r("img", {
                     staticClass: "betonomeshalka",
                     attrs: {src: t.img.betonomeshalka, alt: ""}
-                }) : t._e(), t.showAnimation ? t._e() : r("img", {
-                    staticClass: "betonomeshalka",
-                    attrs: {src: t.img.betonomeshalkastop, alt: ""}
-                }), t.gameon || t.win || t.start ? t._e() : r("div", {staticClass: "firstscreen"}, [!1 === t.instructions ? r("div", [r("h2", {staticClass: "firstscreen__header"}, [t._v(" Зіграйте у київський тетріс! ")]), t._m(1), r("button", {
+                }) : t._e(), t.gameon || t.win || t.start ? t._e() : r("div", {staticClass: "firstscreen"}, [!1 === t.instructions ? r("div", [r("h2", {staticClass: "firstscreen__header"}, [t._v(" Зіграйте у київський тетріс! ")]), t._m(1), r("button", {
                     staticClass: "tetris__nextbutton",
                     on: {
                         click: function (e) {
@@ -369,12 +366,12 @@
                         href: "https://kovalska.com/beton-vid-kovalskoyi",
                         target: "_blank"
                     }
-                }, [t._v("«Бетон від Ковальської»")]), t._v(". З нього створювали сходові клітини, стінові панелі й загалом використали понад 1 000 кубічних метрів конструктиву. ")]), r("p", [t._v(" Бетон компанії "), r("a", {
+                }, [t._v("«Бетон від Ковальської»")]), t._v(". З нього створювали сходові клітини, стінові панелі й загалом використали понад 1 000 кубічних метрів конструктиву. ")]), r("p", [t._v(" Бетон "), r("a", {
                     attrs: {
                         href: "https://kovalska.com/beton-vid-kovalskoyi",
                         target: "_blank"
                     }
-                }, [t._v("«Ковальська»")]), t._v(" має понад 1500 рецептур виробів й вирізняється виключною якістю та довговічністю, на кожну партію сировини є сертифікат якості. ")])]) : t._e(), 3 === t.step ? r("div", [r("h2", {staticClass: "win__header"}, [t._v(" ЦУМ ")]), r("img", {
+                }, [t._v("«ПБГ Ковальська»")]), t._v(" має понад 1500 рецептур виробів й вирізняється довговічністю, на кожну партію сировини є окремий сертифікат якості. ")])]) : t._e(), 3 === t.step ? r("div", [r("h2", {staticClass: "win__header"}, [t._v(" ЦУМ ")]), r("img", {
                     attrs: {
                         src: t.img.tsumfin,
                         alt: ""
@@ -504,7 +501,7 @@
                 }
             }, f = u, v = r("2877"), b = Object(v["a"])(f, d, p, !1, null, "743e4b50", null), m = b.exports, g = r("a4a1"),
             w = (r("f6b9"), r("e06d")), _ = r.n(w), k = r("5a98"), x = r.n(k), y = r("d6f9"), C = r.n(y), S = r("01ce"),
-            M = r.n(S), I = r("3a03"), F = r.n(I), T = r("ab55"), j = r.n(T), O = r("282f"), z = r.n(O), $ = r("b988"),
+            M = r.n(S), I = r("3a03"), T = r.n(I), F = r("ab55"), j = r.n(F), O = r("282f"), z = r.n(O), $ = r("b988"),
             P = r.n($), B = r("ff35"), L = r.n(B), R = r("5c1f"), N = r.n(R), A = (r("dc44"), r("fa6d"), r("4ffd")),
             E = r.n(A), W = r("5299");
         s["default"].use(W);
@@ -664,12 +661,12 @@
                     score: 0,
                     highScore: 0,
                     winScore: 4,
-                    showAnimation: !0,
+                    showAnimation: !1,
                     timer: 0,
                     showPartners: !1,
                     instructions: !1,
                     step: 1,
-                    finalWin: !1,
+                    finalWin: 0,
                     start: !1,
                     gameon: !1,
                     win: !1,
@@ -688,7 +685,7 @@
                         vokzalfin: x.a,
                         olimpfin: C.a,
                         tsumfin: M.a,
-                        bibliofin: F.a,
+                        bibliofin: T.a,
                         parusfin: j.a,
                         facebookImg: z.a,
                         twitterImg: P.a,
@@ -871,7 +868,7 @@
                     }
                 }, swapNew: function () {
                     if (this.passThrough = !1, this.current = this.next, this.checkCollide(this.board, this.current) || this.score >= this.finScore[this.step - 1]) return this.end();
-                    this.setFigureToMap(this.board, this.current), this.$refs.board.update(), this.unsetFigureFromMap(this.preview, this.next, !0), this.next = this.genNew(), this.setFigureToMap(this.preview, this.next, !0), this.$refs.preview.update()
+                    this.setFigureToMap(this.board, this.current), this.$refs.board.update(), this.unsetFigureFromMap(this.preview, this.next, !0), this.next = this.genNew(), this.setFigureToMap(this.preview, this.next, !0), this.$refs.preview.update(), this.showAnimation = !1
                 }, genNew: function () {
                     return this.smartRandom ? this.genNewSmart() : this.genNewOld()
                 }, genNewSmart: function () {
@@ -898,7 +895,10 @@
                     var t = {};
                     return t.figure = this.figures[Math.random() * this.figures.length | 0], t.rotate = 0, t.color = t.figure.color || "hsl(".concat(360 * Math.random() | 0, ", 100%, 50%)"), t.image = t.figure.image, t.pos = [this.board.w / 2 - t.figure.anchor[0] | 0, 0], t
                 }, moveDown: function () {
-                    this.speedup = !0, this.calcSpeed(), this.loop()
+                    var t = this;
+                    this.speedup = !0, setTimeout((function () {
+                        t.speedup = !1, t.calcSpeed()
+                    }), 150), this.calcSpeed(), this.loop()
                 }, keydown: function (t) {
                     switch (t.which) {
                         case"N".charCodeAt(0):
@@ -1007,7 +1007,7 @@
             }, mounted: function () {
                 this.currentTime = new Date, this.currentTime.setHours(0, 0, 0)
             }
-        }, G = D, Y = Object(v["a"])(G, o, n, !1, null, "b44e8a82", null), H = Y.exports, J = {
+        }, G = D, Y = Object(v["a"])(G, o, n, !1, null, "eddf4402", null), H = Y.exports, J = {
             name: "App", data: function () {
                 return {start: !1}
             }, components: {Tetris: H}
@@ -1024,14 +1024,14 @@
     }, ab55: function (t, e, r) {
         t.exports = "."+r.p + "img/parusfin.ec5410f3.svg"
     }, b988: function (t, e, r) {
-        t.exports ="."+ r.p + "img/twitter.9cac25de.svg"
+        t.exports = "."+r.p + "img/twitter.9cac25de.svg"
     }, d6f9: function (t, e, r) {
-        t.exports = "."+r.p + "img/olimpfin.f38e9ce1.svg"
+        t.exports ="."+ r.p + "img/olimpfin.f38e9ce1.svg"
     }, dc44: function (t, e, r) {
     }, e06d: function (t, e, r) {
-        t.exports = "."+r.p + "img/puzzlebg.5007867d.jpeg"
+        t.exports ="."+ r.p + "img/puzzlebg.5007867d.jpeg"
     }, ff35: function (t, e, r) {
         t.exports = "."+r.p + "img/betonomeshalka.dc729527.gif"
     }
 });
-//# sourceMappingURL=app.d841c201.js.map
+//# sourceMappingURL=app.5f15e0ee.js.map
